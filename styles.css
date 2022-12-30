@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.rectangle-1{
+    background-color: green;
+    height: 100vh;
+    width: 100vw;
+}
+
+.rectangle-2{
+    background-color: black;
+    width: 100vw;
+    height: 8vh;
+    color: white;
+}
+
+h1{
+    padding-top: 10px;
+}
+
+#file-input{
+    height: 5vh;
+    width: 100vw;
+    padding-top: 10px;
+}
+
+#search-input{
+    height: 5vh;
+    width: 80vw;
+    /* text-align: center; */
+}
+
+#search-box-align{
+    text-align: center;
+}
+
+.rectangle-5{
+    text-align: center;
+}
+
+button{
+    background: #000000;   
+    color: white; 
+    margin: 10px 50px 10px 50px;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+
+#data-table{
+    border: 1px solid black;
+}
+
+.rectangle-1{
+    background-color: #CDCDCD;;
+}
+
+th{
+    border: 1px solid black;
+    margin:10px 50px 10px 50px ;
+}
+
+.rectangle-6{
+    margin-left: 300px;
+}
+

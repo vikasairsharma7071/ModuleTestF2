@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  
+  <div class="rectangle-1">
+    <div class="rectangle-2">
+      <h1>Student Portal</h1>
+    </div>
+
+    <div class="rectangle-3">
+      <!-- Taking input of the file  -->
+      <input type="file" id="file-input" accept=".json"><br>
+    </div>
+
+    <div class="rectangle-4">
+      <div id="search-box-align">
+        <!-- search box  -->
+        <input type="text" id="search-input" placeholder="Search..."><br>
+      </div>
+    </div>
+
+    <div class="rectangle-5">
+      <!-- sort by marks  -->
+      <button class="btn" id="sort-button-m">Sort by Marks</button>
+
+
+      <!-- Sort by reverse alphabetical order  -->
+      <button class="button-class" id="sort-button-r">Sort Z-A</button>
+
+      <!-- sort according to alphbetical order -->
+      <button class="button-class" id="sort-button">Sort A-Z</button>
+
+      <!-- Sort by class  -->
+      <button class="button-class" id="sort-button-c">Sort by Class</button>
+
+      <!-- Sort according to there gender  -->
+      <button class="button-class" id="sort-button-g">Sort by Gender</button>
+
+    </div>
+
+    <div class="rectangle-6">
+      <table id="data-table">
+        <tr>
+          <th id="th-id">ID</th>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Email</th>
+          <th>Gender</th>
+          <th>Image</th>
+          <th>Class</th>
+          <th>Marks</th>
+          <th>Passing</th>
+          <th>City</th>
+        </tr>
+      </table>
+    </div>
+
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
